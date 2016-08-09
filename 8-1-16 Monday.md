@@ -28,7 +28,7 @@
 	* ask new questions
 
 #### Zone of proximal development
-learner can do unaided --> **learner can do with guidance** --> learner annot do
+learner can do unaided --> **learner can do with guidance** --> learner cannot do
 
 #### Bloom's Taxonomy
 * Remember--recall facts and basic
