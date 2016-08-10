@@ -1,0 +1,46 @@
+#8/10/16
+##DOM Part 1
+###DOM--Document Object Model
+* A representation of XML and nodes
+* Most importantly, it's an interface
+	* API--Application Programming Interface
+	* Webpage is the document, the model is the interface
+* The document is an object, DOM is the blueprint for the object, it holds the methods and properties.
+	* ```var a = new Array();``` similar to ```var document = new DOM();``` **NOTE: not actual code/syntax**
+
+####Using the document to find elements(methods):
+* Find an array of all elements with a specific **tag**:
+	* ```document.getElementsByTagName('tag');```
+	* must be accessed w/ index
+		* ```console.log(tagArray[0]);```
+* Find an array(HTML collection) of all elements with a specific **class**:
+	* ```document.getElementsByClassName('class');```
+	* must be accessed w/ index
+		* ```console.log(classArray[0]);```
+
+* Find an element with a specific **ID**:
+	* ```document.getElementById('id');```
+
+####Query Selector(methods)
+* returnes individual node
+	* ```document.querySelector('any valid CSS selector')```
+
+* returns node list (HTML collection)	
+	* ```document.querySelectorAll('any valid CSS selector')```
+	
+####Properties to access nodes
+* ```.innerHTML```
+	* targets all HTML in a tag, returns a node
+* ```.innterText```
+	* targets all text in a tag, returns a node
+
+####Properties to traverse DOM
+* ```.childNodes```
+	* returns all nodes that are children
+* ```.parentNodes```
+	* returns all parents of the node the property was called on
+* Other properties:
+	* ```.firstChild```
+	* ```.lastChild```
+	* ```.nextSibling```
+	* ```.previousSibling```
