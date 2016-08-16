@@ -1,0 +1,63 @@
+#8/15/16
+##Material Design
+* Material Design is a philosophy
+	* it mimics pen and paper
+* Materialize
+	* a lot of pepackaged features
+	* still a lot of functionality
+* to utilize a framework we need to use:
+	* css and script files of framework--cdn will get files we need
+
+###The Grid
+* Grids (typically) contain 12 columns
+* Columns live in rows
+
+###Helpers
+Add these extra words to class
+
+
+##Test Driven Development
+
+[Link to craig's slides] (https://gstudent.slack.com/files/craigquincy/F21JG7HUN/tdd_slides.pdf)
+
+TDD approach
+
+* Add tests
+* See tests fail
+* Write code
+* Run tests
+* Refactor
+
+###Mocha
+Javascript test frameowrk, runs on node.js and in the broswer
+
+###Chai
+BDD/TDD assertion library for node adn the browser that can be paired with any javascript testing framework
+
+### Example Mocha Test File
+```var expect = require("chai").expect;
+require("app");
+
+describe("Unless 
+
+
+```
+1. assertion library
+2. code beign tested
+3. 
+
+
+####You can use hooks for setting up data or resetting in between tests
+describe('hooks', function() {
+before(function()){};
+after
+beforeEach
+afterEach
+
+####Zero -- One -- Many
+* Zero--empty test cases
+	* ```{}``` ```[]``` ```""```
+* One--handdles test cases w/ one thing, etc:
+	* ```{COHORT: 'g32'}```,```['hello']```, ```'H'```
+* many--throw kitchen sink at them
+	* ```{A:1, B:2, C:3}```, ```[1, 'foobar', true]```, ```"Hello, World"```
