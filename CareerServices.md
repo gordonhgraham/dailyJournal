@@ -37,3 +37,6 @@
 ###Resources
 * [builtincolorado.com](http://builtincolorado.com)
 * Mukai Office Hours: Mon, Tues, 12-1p
+
+
+##Social Profiles/Talent Profile
